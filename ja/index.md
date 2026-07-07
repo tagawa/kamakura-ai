@@ -1,13 +1,13 @@
 ---
 layout: page
-title: ホーム
+title: 今日から試せるAIヒント集
+description: 鎌倉発、仕事と暮らしで今日から試せる実践AIヒント集。流行に左右されない長く使えるコツと、地元イベントの情報。
 lang: ja
 page_id: home
 alt_lang_url: /en/
 permalink: /ja/
 ---
-<!-- REPLACE: 2-3 sentence site concept. Placeholder below. -->
-このサイトは、鎌倉のAI活用ヒント集です。仕事や暮らしですぐ試せる、流行に左右されにくいコツを集めています。ときどき地元でAIについて話す会も開いています。
+鎌倉AIは、仕事や暮らしで「今日から試せる」AI活用のヒント集です。流行のツール紹介ではなく、長く使える実践的なコツだけを集めています。ときどき、鎌倉でAIの使い方を持ち寄って話す会も開いています。
 
 <h2>新着ヒント</h2>
 <ul class="tip-list">

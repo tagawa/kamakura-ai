@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Tips
+title: AI Tips
+description: Practical AI tips, newest first. Prompting basics, work habits, and everyday uses.
 lang: en
 page_id: tips
 alt_lang_url: /ja/tips/

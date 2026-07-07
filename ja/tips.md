@@ -1,6 +1,7 @@
 ---
 layout: page
-title: ヒント集
+title: AIヒント集
+description: すぐ試せるAI活用のコツを新着順に。プロンプトの基本から仕事術・暮らしの活用まで。
 lang: ja
 page_id: tips
 alt_lang_url: /en/tips/

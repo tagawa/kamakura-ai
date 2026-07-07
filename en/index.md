@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Home
+title: AI tips you can try today
+description: Practical, evergreen AI tips from Kamakura, Japan, for work and everyday life, plus occasional local meetups.
 lang: en
 page_id: home
 alt_lang_url: /ja/
 permalink: /en/
 ---
-<!-- REPLACE: 2-3 sentence site concept (EN). Placeholder below. -->
-A collection of practical, evergreen-leaning AI tips from REPLACE-TOWN, Japan, for work and everyday life. We also hold occasional local meetups about how people actually use AI. Japanese is the primary language; tip pages include English where available.
+Kamakura AI is a collection of practical AI tips you can try today, for work and everyday life. No hype and no tool-of-the-week coverage, just techniques that stay useful as tools change. We also hold occasional meetups in Kamakura where locals share how they actually use AI (mainly in Japanese).
 
 <h2>Latest tips</h2>
 <ul class="tip-list">

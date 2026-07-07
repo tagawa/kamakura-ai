@@ -1,6 +1,7 @@
 ---
 layout: page
 title: イベント・このサイトについて
+description: 鎌倉AIのイベント情報と、このサイトについて。
 lang: ja
 page_id: about
 alt_lang_url: /en/about/
