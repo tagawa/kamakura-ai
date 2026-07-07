@@ -12,6 +12,8 @@ permalink: /ja/tips/
 <ul class="tip-list">
 {% assign tips = site.tips | sort: 'date' | reverse %}
 {% for tip in tips %}
-  <li><a href="{{ tip.url }}">{{ tip.title_ja }}</a><br>{% for tag in tip.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</li>
+  <li><a href="{{ tip.url }}">{{ tip.title_ja }}</a><br>
+    {% for tag in tip.tags %}<span class="tag">{{ site.data.tags[tag] | default: tag }}</span>{% endfor %}
+  </li>
 {% endfor %}
 </ul>

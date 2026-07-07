@@ -6,7 +6,7 @@ layout: default
 <header class="tip-header">
   <h1>{{ page.title_ja }}</h1>
   {% if page.title_en %}<p class="tip-title-en" lang="en">{{ page.title_en }}</p>{% endif %}
-  <p class="tip-tags">{% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</p>
+  <p class="tip-tags">{% for tag in page.tags %}<span class="tag">{{ site.data.tags[tag] | default: tag }}</span>{% endfor %}</p>
 </header>
 <section class="tip-body" lang="ja" id="ja">
 {{ parts[0] }}
