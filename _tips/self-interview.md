@@ -2,7 +2,7 @@
 title_ja: "白紙から書けないときは、AIに「取材」してもらう"
 title_en: "Facing a blank page? Have AI interview you"
 tags: [writing, workflow]
-date: REPLACE-ON-PUBLISH
+date: 2026-07-08
 source: original
 ---
 **状況**: 文章を一から書こうとすると、何から始めればいいか分からず、白紙の前で手が止まる。
