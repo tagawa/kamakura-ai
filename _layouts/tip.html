@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% assign parts = content | split: '<!--en-->' %}
+<article class="tip">
+<header class="tip-header">
+  <h1>{{ page.title_ja }}</h1>
+  {% if page.title_en %}<p class="tip-title-en" lang="en">{{ page.title_en }}</p>{% endif %}
+  <p class="tip-tags">{% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</p>
+</header>
+<section class="tip-body" lang="ja" id="ja">
+{{ parts[0] }}
+</section>
+<section class="tip-body tip-en" lang="en" id="en">
+  <h2>English</h2>
+  {% if parts.size > 1 %}{{ parts[1] }}{% else %}<p>英語版準備中 / English version pending.</p>{% endif %}
+</section>
+<footer class="tip-footer">
+  {% if page.source and page.source != 'original' %}<p class="tip-source">出典 / Source: {{ page.source }}</p>{% endif %}
+  <p class="tip-date"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y-%m-%d' }}</time>{% if page.event %} ・ event: {{ page.event }}{% endif %}</p>
+</footer>
+</article>

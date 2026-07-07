@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'ja' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+{% assign l = page.lang | default: 'ja' %}
+{% assign t = site.data.ui[l] %}
+<header class="site-header">
+  <a class="site-title" href="/{{ l }}/">{% if l == 'en' %}{{ site.title_en }}{% else %}{{ site.title }}{% endif %}</a>
+  <nav aria-label="main">
+    <a href="/{{ l }}/">{{ t.nav_home }}</a>
+    <a href="/{{ l }}/tips/">{{ t.nav_tips }}</a>
+    <a href="/{{ l }}/about/">{{ t.nav_about }}</a>
+    {% if page.alt_lang_url %}<a class="lang-switch" href="{{ page.alt_lang_url }}">{{ t.lang_switch }}</a>{% endif %}
+  </nav>
+</header>
+<main id="main">
+{{ content }}
+</main>
+<footer class="site-footer">
+  <p><a href="https://github.com/tagawa/kamakura-ai">GitHub</a></p>
+</footer>
+</body>
+</html>

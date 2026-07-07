@@ -1,0 +1,18 @@
+ja:
+  nav_home: ホーム
+  nav_tips: ヒント集
+  nav_about: イベント・概要
+  lang_switch: English
+  latest: 新着ヒント
+  all_tips: ヒント一覧(新着順)
+  en_pending: 英語版準備中
+  source_label: 出典
+en:
+  nav_home: Home
+  nav_tips: Tips
+  nav_about: Events & About
+  lang_switch: 日本語
+  latest: Latest tips
+  all_tips: All tips (newest first)
+  en_pending: English version pending
+  source_label: Source
