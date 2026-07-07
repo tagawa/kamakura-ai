@@ -1,0 +1,25 @@
+# Site settings
+title: 鎌倉AI
+title_en: Kamakura AI
+description: 鎌倉のAI活用ヒントとイベント情報
+url: "https://kamakura.ai"
+timezone: Asia/Tokyo
+lang: ja
+
+collections:
+  tips:
+    output: true
+    permalink: /tips/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "tips"
+    values:
+      layout: tip
+
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+  - .gitignore
