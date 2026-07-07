@@ -6,6 +6,19 @@
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ page.description | default: site.description }}">
 <link rel="stylesheet" href="/assets/style.css">
+{% if page.page_id == 'home' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.title | jsonify }},
+  "alternateName": {{ site.title_en | jsonify }},
+  "url": {{ site.url | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "inLanguage": ["ja", "en"]
+}
+</script>
+{% endif %}
 </head>
 <body>
 {% assign l = page.lang | default: 'ja' %}

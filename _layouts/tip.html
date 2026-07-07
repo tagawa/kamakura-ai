@@ -20,3 +20,18 @@ layout: default
   <p class="tip-date"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y-%m-%d' }}</time>{% if page.event %} ・ event: {{ page.event }}{% endif %}</p>
 </footer>
 </article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title_ja | jsonify }},
+  "alternativeHeadline": {{ page.title_en | jsonify }},
+  "url": "{{ site.url }}{{ page.url }}",
+  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+  "inLanguage": ["ja", "en"],
+  "keywords": {{ page.tags | join: ", " | jsonify }},
+  "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
+  "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }}, "url": {{ site.url | jsonify }} }
+}
+</script>

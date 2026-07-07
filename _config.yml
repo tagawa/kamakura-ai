@@ -23,3 +23,6 @@ exclude:
   - LICENSE
   - CNAME
   - .gitignore
+
+plugins:
+  - jekyll-sitemap

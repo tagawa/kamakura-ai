@@ -1,0 +1,19 @@
+---
+permalink: /llms.txt
+layout: null
+---
+# {{ site.title }} (Kamakura AI)
+
+> Practical, evergreen AI tips from Kamakura, Japan, for work and everyday life. Japanese is canonical; most tips include English. Also home base for occasional local AI meetups.
+
+Tip format: situation / what to do / result and key point. Each tip page contains Japanese first, then English under the #en anchor.
+
+## Tips
+{% assign tips = site.tips | sort: 'date' | reverse %}{% for tip in tips %}
+- [{{ tip.title_en | default: tip.title_ja }}]({{ site.url }}{{ tip.url }}): {{ tip.title_ja }} ({{ tip.tags | join: ", " }}){% endfor %}
+
+## Pages
+
+- [Tips index (JA)]({{ site.url }}/ja/tips/)
+- [Tips index (EN)]({{ site.url }}/en/tips/)
+- [Events & about (EN)]({{ site.url }}/en/about/)
