@@ -11,7 +11,7 @@ permalink: /ja/
 
 <h2>新着ヒント</h2>
 <ul class="tip-list">
-{% assign tips = site.tips | sort: 'date' | reverse %}
+{% assign tips = site.tips | where_exp: 'tip', 'tip.date <= site.time' | sort: 'date' | reverse %}
 {% for tip in tips limit: 5 %}
   <li><a href="{{ tip.url }}">{{ tip.title_ja }}</a><br>
     {% for tag in tip.tags %}<a class="tag" href="/ja/tags/#{{ tag }}">{{ site.data.tags[tag] | default: tag }}</a>{% endfor %}

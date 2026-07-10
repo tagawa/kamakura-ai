@@ -8,9 +8,10 @@ permalink: /ja/tags/
 description: 鎌倉AIのヒントをタグ別に一覧。
 ---
 {% assign all_tags = "" | split: "" %}
-{% for tip in site.tips %}{% for t in tip.tags %}{% assign all_tags = all_tags | push: t %}{% endfor %}{% endfor %}
+{% assign published_tips = site.tips | where_exp: 'tip', 'tip.date <= site.time' %}
+{% for tip in published_tips %}{% for t in tip.tags %}{% assign all_tags = all_tags | push: t %}{% endfor %}{% endfor %}
 {% assign all_tags = all_tags | uniq | sort %}
-{% assign tips_sorted = site.tips | sort: 'date' | reverse %}
+{% assign tips_sorted = published_tips | sort: 'date' | reverse %}
 {% for tag in all_tags %}
 <h2 id="{{ tag }}">{{ site.data.tags[tag] | default: tag }}</h2>
 <ul class="tip-list">
