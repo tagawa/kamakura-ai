@@ -1,6 +1,8 @@
 ---
 title_ja: "個人情報は伏せてから貼り付ける"
 title_en: "Strip sensitive details before pasting"
+description_ja: "家計やメールをAIに分析させる前に、氏名や口座番号などの個人情報を伏せる方法。"
+description_en: "How to safely let AI analyze personal documents by masking names, account numbers, and other identifying details first."
 tags: [privacy, daily-life, work]
 date: 2026-06-29
 source: original

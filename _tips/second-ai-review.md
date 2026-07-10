@@ -1,6 +1,8 @@
 ---
 title_ja: "大事な成果物は「別のAI」にレビューさせる"
 title_en: "Have a second AI review the first one's work"
+description_ja: "AIの成果物が良いか自分で判断しづらいとき、別のAIにレビューさせて指摘を元のAIへ戻す方法。"
+description_en: "How to judge AI-produced work more objectively by having a second AI review it and feeding the critique back."
 tags: [workflow, quality, verification]
 date: 2026-06-26
 source: original

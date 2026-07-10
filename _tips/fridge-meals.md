@@ -1,6 +1,8 @@
 ---
 title_ja: "冷蔵庫の中身から献立を考えてもらう"
 title_en: "Turn your fridge contents into a meal plan"
+description_ja: "買い物前に、冷蔵庫にある食材だけで作れる献立をAIに考えてもらう方法。"
+description_en: "How to plan dinners from only what's already in your fridge before grocery shopping."
 tags: [daily-life, planning]
 date: 2026-07-03
 source: original

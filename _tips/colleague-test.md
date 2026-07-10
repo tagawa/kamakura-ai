@@ -1,6 +1,8 @@
 ---
 title_ja: "依頼文は「同僚に渡して伝わるか」で見直す"
 title_en: "The colleague test: would a coworker get it?"
+description_ja: "AIへの依頼が伝わらないとき、「同僚に渡して伝わるか」で依頼文自体を見直す方法。"
+description_en: "How to fix off-target AI responses by testing whether a coworker with no context could follow your request."
 tags: [prompting, writing]
 date: 2026-07-06
 source: "Anthropic prompting best practices"

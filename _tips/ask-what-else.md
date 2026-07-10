@@ -1,6 +1,8 @@
 ---
 title_ja: "「他に何を手伝える?」と聞いて使い道を広げる"
 title_en: "Ask: what else can you help me with?"
+description_ja: "簡単な頼み事をしたあとにAI自身へ「他に何を手伝えるか」を聞き、自分向けの使い道を見つける方法。"
+description_en: "How to find personal uses for AI by giving it one small task, then asking it what else it could help with."
 tags: [getting-started, habits]
 date: 2026-07-07
 source: original

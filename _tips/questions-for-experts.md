@@ -1,6 +1,8 @@
 ---
 title_ja: "法律・医療は「答え」でなく「聞くべき質問」を作らせる"
 title_en: "For legal or medical topics, get questions to ask, not answers"
+description_ja: "契約や体調が心配なとき、AIに答えを求めず、専門家に聞くべき質問リストを作らせる方法。"
+description_en: "How to safely use AI on legal or medical concerns by asking it for questions to bring to an expert, not a verdict."
 tags: [verification, daily-life]
 date: 2026-06-30
 source: original

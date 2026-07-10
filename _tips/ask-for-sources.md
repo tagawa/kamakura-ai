@@ -1,6 +1,8 @@
 ---
 title_ja: "AIの答えは出典を聞いて自分で確認する"
 title_en: "Ask for sources, then verify them yourself"
+description_ja: "AIが断定する事実や数字は、出典を尋ねて自分で裏取りする方法。"
+description_en: "How to catch AI's confidently wrong facts and numbers by asking for sources and verifying them yourself."
 tags: [verification, research]
 date: 2026-07-01
 source: original

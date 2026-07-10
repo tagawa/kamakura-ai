@@ -1,6 +1,8 @@
 ---
 title_ja: "いきなり作らせず、設計→レビュー→本番の順で頼む"
 title_en: "Plan first: spec, review, then execute"
+description_ja: "長い文章や資料を一発で作らせず、設計・レビュー・本番の順に段階を分けて頼む方法。"
+description_en: "How to avoid off-target first drafts by having AI produce a spec first, then reviewing before it writes the final version."
 tags: [workflow, quality]
 date: 2026-06-27
 source: original

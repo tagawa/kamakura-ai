@@ -1,6 +1,8 @@
 ---
 title_ja: "AIの提案には「反論も作らせて」から判断する"
 title_en: "Ask AI to argue against its own recommendation"
+description_ja: "AIの提案をそのまま信じてよいか迷うとき、反論と結論が覆る条件をAI自身に出させて判断材料にする方法。"
+description_en: "How to judge a confident AI recommendation by asking it to argue against itself and name what would change its conclusion."
 tags: [verification, judgment, workflow]
 date: 2026-07-10
 source: "Cathryn Lavery (https://littlemight.com/)"

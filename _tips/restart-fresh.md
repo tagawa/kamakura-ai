@@ -1,6 +1,8 @@
 ---
 title_ja: "直らないときは粘らず、新しいチャットで仕切り直す"
 title_en: "When fixes stop working, restart in a fresh chat"
+description_ja: "長い会話でAIが同じ間違いを繰り返すとき、粘らず要点をまとめて新しいチャットに仕切り直す方法。"
+description_en: "How to fix a stuck long conversation by summarizing progress and restarting in a fresh chat instead of continuing to patch it."
 tags: [workflow, habits]
 date: 2026-06-25
 source: "Laban et al. 2025 (arXiv:2505.06120); CIO on doomprompting (2025)"

@@ -1,6 +1,8 @@
 ---
 title_ja: "苦手分野の理解度チェック用クイズを作る"
 title_en: "Generate a quiz to test what you actually understood"
+description_ja: "読んだ教材の理解度に自信がないとき、AIに確認クイズを作らせて自分で解く方法。"
+description_en: "How to check whether you actually understood something you read by having AI generate a quiz and taking it yourself."
 tags: [learning, education]
 date: 2026-07-02
 source: original

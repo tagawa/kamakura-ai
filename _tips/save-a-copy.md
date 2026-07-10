@@ -1,6 +1,8 @@
 ---
 title_ja: "AIに直させる前に、元のコピーを残す"
 title_en: "Save a copy before letting AI change your work"
+description_ja: "AIに文書や表を直させて元に戻せなくなる事態を防ぐため、大きな修正の前にコピーを残す方法。"
+description_en: "How to avoid unrecoverable AI edits by saving a dated copy of your document before any large rewrite."
 tags: [workflow, safety]
 date: 2026-06-24
 source: "adapted from version-control practice"

@@ -1,6 +1,8 @@
 ---
 title_ja: "結論には「根拠の場所」を示させる"
 title_en: "Make AI show where each claim comes from"
+description_ja: "AIに要約や分析をさせた結論が、元資料のどこに基づくか分からず検証できない問題への対処法。"
+description_en: "How to make AI-generated conclusions verifiable by requiring it to cite which part of your source material each claim is based on."
 tags: [verification, work]
 date: 2026-07-11
 source: "Cathryn Lavery (https://littlemight.com/)"

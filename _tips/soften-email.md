@@ -1,6 +1,8 @@
 ---
 title_ja: "メールの言い方をやわらげてもらう"
 title_en: "Soften an email's tone before sending"
+description_ja: "きつい印象になりそうなメールを送る前に、AIに言い回しを複数パターン作ってもらう方法。"
+description_en: "How to fix an email's tone before sending by asking AI for several alternative phrasings, not just one rewrite."
 tags: [writing, work]
 date: 2026-07-04
 source: original

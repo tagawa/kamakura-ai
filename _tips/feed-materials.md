@@ -1,6 +1,8 @@
 ---
 title_ja: "一般論で済ませず、自分の「材料」を渡す"
 title_en: "Feed AI your own materials, not just a request"
+description_ja: "AIの出力がテンプレ的になるとき、議事録や実際の数字などの実物素材を渡して自分仕様にする方法。"
+description_en: "How to make generic AI output fit your situation by feeding it real materials instead of just a request."
 tags: [prompting, workflow]
 date: 2026-07-05
 source: "Mollick, Using AI Right Now (2025)"

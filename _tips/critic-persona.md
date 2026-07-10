@@ -1,6 +1,8 @@
 ---
 title_ja: "辛口の「批評役」を指定して、感想ではなく指摘をもらう"
 title_en: "Assign a critical persona to get critique, not compliments"
+description_ja: "AIから無難な感想しか返ってこないとき、批評役の立場と率直に言ってよい許可を与えて具体的な指摘を引き出す方法。"
+description_en: "How to get real critique instead of bland praise by assigning AI a critical persona and permission to be blunt."
 tags: [prompting, feedback, work]
 date: 2026-06-28
 source: "Cathryn Lavery (https://littlemight.com/)"

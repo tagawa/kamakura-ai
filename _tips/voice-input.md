@@ -1,6 +1,8 @@
 ---
 title_ja: "迷ったら音声入力。話すほうが「本音の材料」が伝わる"
 title_en: "Use voice input: talking gives AI more to work with"
+description_ja: "文字入力だと背景事情が削れてしまうとき、音声入力で本音や事情ごとAIに伝える方法。"
+description_en: "How typing quietly edits out context, and how talking into voice input instead gives AI more to work with."
 tags: [prompting, habits]
 date: 2026-07-09
 source: original

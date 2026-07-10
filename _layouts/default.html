@@ -3,8 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description | default: site.description }}">
+
+{% assign l = page.lang | default: 'ja' %}
+{% assign page_title = page.title %}
+{% if l == 'en' and page.title_en %}{% assign page_title = page.title_en %}{% elsif page.title_ja %}{% assign page_title = page.title_ja %}{% endif %}
+<title>{% if page_title %}{{ page_title }} | {% endif %}{{ site.title }}</title>
+{% assign page_desc = page.description %}
+{% if l == 'en' and page.description_en %}{% assign page_desc = page.description_en %}{% elsif page.description_ja %}{% assign page_desc = page.description_ja %}{% endif %}
+<meta name="description" content="{{ page_desc | default: site.description }}">
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <link rel="stylesheet" href="/assets/style.css">
 {% if page.page_id == 'home' %}
 

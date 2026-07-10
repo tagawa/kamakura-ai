@@ -1,6 +1,8 @@
 ---
 title_ja: "白紙から書けないときは、AIに「取材」してもらう"
 title_en: "Facing a blank page? Have AI interview you"
+description_ja: "白紙から書き出せないとき、AIに一問ずつ取材してもらい、その回答から下書きを作る方法。"
+description_en: "How to beat blank-page freeze by having AI interview you one question at a time, then turn your answers into a first draft."
 tags: [writing, workflow]
 date: 2026-07-08
 source: original

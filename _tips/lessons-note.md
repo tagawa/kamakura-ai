@@ -1,6 +1,8 @@
 ---
 title_ja: "AIの反省は「次回も読める場所」に書き残させる"
 title_en: "Make AI write its lessons somewhere it can read next time"
+description_ja: "AIが同じ失敗を繰り返さないよう、反省点を次回も読める場所に書き残させる方法。"
+description_en: "How to stop AI repeating mistakes by having it write lessons somewhere the next session will actually read."
 tags: [workflow, habits]
 date: 2026-06-23
 source: original

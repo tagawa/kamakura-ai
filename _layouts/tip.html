@@ -30,7 +30,9 @@ layout: default
   "url": "{{ site.url }}{{ page.url }}",
   "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
   "inLanguage": ["ja", "en"],
-  "keywords": {{ page.tags | join: ", " | jsonify }},
+  {% assign kw = "" | split: "" %}
+  {% for tag in page.tags %}{% assign kw = kw | push: site.data.tags[tag] | default: tag %}{% endfor %}
+  "keywords": {{ kw | join: ", " | jsonify }},
   "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
   "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }}, "url": {{ site.url | jsonify }} }
 }
