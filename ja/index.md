@@ -9,12 +9,15 @@ permalink: /ja/
 next_event_date: 2026-07-30
 next_event_title: 鎌倉・旅するAI Night
 ---
-鎌倉AIは、仕事や暮らしで「今日から試せる」AI活用のヒント集です。流行のツール紹介ではなく、長く使える実践的なコツだけを集めています。ときどき、鎌倉でAIの使い方を持ち寄って話す会も開いています。
+
+仕事や暮らしで使えるAI活用のコツを集めています。流行のツール紹介ではなく、長く使えるものだけ。エンジニアでなくても試せます。
 
 {% assign today_int = site.time | date: '%Y%m%d' | plus: 0 %}
 {% assign event_int = page.next_event_date | date: '%Y%m%d' | plus: 0 %}
 {% if page.next_event_date and event_int >= today_int %}
 <p class="next-event">次回: <a href="/ja/events/">{{ page.next_event_date | date: '%-m/%-d' }} {{ page.next_event_title }}</a></p>
+{% else %}
+<p class="next-event"><a href="/ja/events/">鎌倉でときどき、AIを使って手を動かす会を開いています</a></p>
 {% endif %}
 
 <h2>新着ヒント</h2>
