@@ -6,8 +6,8 @@ lang: en
 page_id: home
 alt_lang_url: /ja/
 permalink: /en/
-# next_event_date: 2026-07-30
-# next_event_title: Kamakura AI Night
+next_event_date: 2026-07-30
+next_event_title: Kamakura AI Night
 ---
 Practical AI habits for work and everyday life. Not tool news; only the things that stay useful. No engineering background needed.
 
@@ -16,7 +16,7 @@ Practical AI habits for work and everyday life. Not tool news; only the things t
 {% if page.next_event_date and event_int >= today_int %}
 <p class="next-event">Next event: <a href="/en/events/">{{ page.next_event_date | date: '%-m/%-d' }} {{ page.next_event_title }}</a></p>
 {% else %}
-<p class="next-event"><a href="/en/events/">We also hold occasional meetups in Kamakura to share how we actually use AI (mainly in Japanese).</a></p>
+<p class="next-event">We hold occasional <a href="/en/events/">hands-on AI work sessions</a> in Kamakura (mainly in Japanese).</p>
 {% endif %}
 
 <h2>Latest tips</h2>
@@ -29,4 +29,4 @@ Practical AI habits for work and everyday life. Not tool news; only the things t
 {% endfor %}
 </ul>
 
-<p><a href="/en/tips/">All tips</a> ・ <a href="/en/about/">Events</a></p>
+<p><a href="/en/tips/">All tips</a> · <a href="/en/events/">Events</a></p>

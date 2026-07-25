@@ -20,4 +20,3 @@ A shared work session: bring the task you keep putting off and use AI to get it 
 - Bring: Laptop, materials, whatever you need
 - Host: Kamakura Tabisuru Shigotoba
 - Joining: Open to non-members. Contact the venue staff to sign up; walk-ins welcome.
-- 

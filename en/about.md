@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Events & About
-description: Kamakura AI meetup information and about this site.
+title: About
+description: About Kamakura AI.
 lang: en
 page_id: about
 alt_lang_url: /ja/about/
