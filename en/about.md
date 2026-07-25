@@ -10,6 +10,6 @@ permalink: /en/about/
 
 ## About
 
-We run occasional small meetups in Kamakura about how people use AI, not just for coding but for work, daily life, and learning. Events are held mainly in Japanese. See [Events](/en/events) for upcoming meetups.
+We run small hands-on AI sessions in Kamakura. No presentations; everyone brings their own work. Not just coding: work, daily life and learning are all welcome. See [Events](/en/events/) for what's coming up.
 
 Submit a tip via the [GitHub form](https://github.com/tagawa/kamakura-ai/issues/new?template=tip.yml).
