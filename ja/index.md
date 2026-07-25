@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 今日から試せるAIヒント集
+title: 今日から試せるAIヒント
 description: 鎌倉発、仕事と暮らしで今日から試せる実践AIヒント集。流行に左右されない長く使えるコツと、地元イベントの情報。
 lang: ja
 page_id: home
