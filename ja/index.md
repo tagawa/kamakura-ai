@@ -17,7 +17,7 @@ next_event_title: 鎌倉・旅するAI Night
 {% if page.next_event_date and event_int >= today_int %}
 <p class="next-event">次回: <a href="/ja/events/">{{ page.next_event_date | date: '%-m/%-d' }} {{ page.next_event_title }}</a></p>
 {% else %}
-<p class="next-event"><a href="/ja/events/">鎌倉でときどき、AIを使って手を動かす会を開いています</a></p>
+<p class="next-event">鎌倉でときどき、<a href="/ja/events/">AIを使って手を動かす会</a>を開いています。</p>
 {% endif %}
 
 <h2>新着ヒント</h2>
@@ -30,4 +30,4 @@ next_event_title: 鎌倉・旅するAI Night
 {% endfor %}
 </ul>
 
-<p><a href="/ja/tips/">ヒント一覧へ</a> ・ <a href="/ja/about/">イベント情報へ</a></p>
+<p><a href="/ja/tips/">ヒント一覧へ</a> ・ <a href="/ja/events/">イベント情報へ</a></p>
