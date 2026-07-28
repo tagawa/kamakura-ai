@@ -14,7 +14,7 @@ permalink: /ja/events/
 
 AIを使って、後回しになっていた仕事や、試してみたかったAI活用に取り組む時間を共有する会です。発表もプレゼンもありません。ひとりで黙々と作業しても、誰かとAIの使い方や困っていることを話しても、普段の業務を持ち込んでも構いません。今回が初開催です。
 
-作業内容は人それぞれ。画像・動画制作、資料作成、AIの学習、プログラミング、開発など。ChatGPT、Gemini、Claude、Midjourney など、使うツールも自由です。
+作業内容は人それぞれ。画像・動画制作、資料作成、AIの学習、プログラミング、開発など。[ChatGPT](https://chatgpt.com)、[Gemini](https://gemini.google.com)、[Claude](https://claude.ai)、[Midjourney](https://www.midjourney.com) など、使うツールも自由です。
 
 - 日時: 2026年7月30日(木) 18:00-20:00
 - 会場: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
