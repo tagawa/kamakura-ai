@@ -86,7 +86,7 @@ img { max-width: 100%; height: auto; }
 
 /* Event flyer */
 .event-flyer { margin: 2rem 0; }
-.event-flyer img {
+.event-flyer img, .event-banner img {
   display: block;
   border: 1px solid var(--line);
   border-radius: 6px;
