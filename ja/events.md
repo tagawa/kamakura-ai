@@ -17,7 +17,8 @@ AIを使って、後回しになっていた仕事や、試してみたかった
 作業内容は人それぞれ。画像・動画制作、資料作成、AIの学習、プログラミング、開発など。ChatGPT、Gemini、Claude、Midjourney など、使うツールも自由です。
 
 - 日時: 2026年7月30日(木) 18:00-20:00
-- 会場: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)（鎌倉市御成町11-2 ヤノヤビル2F / JR鎌倉駅西口 徒歩1分 / [地図](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi)）
+- 会場: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
+  - 鎌倉市御成町11-2 ヤノヤビル2F / JR鎌倉駅西口 徒歩1分 / [地図](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi)
 - 費用: 無料
 - 持ち物: PC、電源、必要な機材・資料
 - 主催: 鎌倉・旅する仕事場
