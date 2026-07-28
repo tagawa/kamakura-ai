@@ -16,6 +16,9 @@ next_event_title: 鎌倉・旅するAI Night
 {% assign event_int = page.next_event_date | date: '%Y%m%d' | plus: 0 %}
 {% if page.next_event_date and event_int >= today_int %}
 <p class="next-event">次回: <a href="/ja/events/">{{ page.next_event_date | date: '%-m/%-d' }} {{ page.next_event_title }}</a></p>
+<figure class="event-banner">
+  <img src="/assets/events/kamakura-ai-night_banner.webp" width="1196" height="520" alt="鎌倉・旅するAI Night のPR画像。">
+</figure>
 {% else %}
 <p class="next-event">鎌倉でときどき、<a href="/ja/events/">AIを使って手を動かす会</a>を開いています。</p>
 {% endif %}
