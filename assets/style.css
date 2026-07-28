@@ -88,7 +88,6 @@ img { max-width: 100%; height: auto; }
 .event-flyer { margin: 2rem 0; }
 .event-flyer img {
   display: block;
-  max-width: 30rem;
   border: 1px solid var(--line);
   border-radius: 6px;
 }
