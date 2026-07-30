@@ -44,6 +44,9 @@ AIを使って、後回しになっていた仕事や、試してみたかった
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "inLanguage": "ja",
+  "image": [
+    "https://kamakura.ai/assets/events/kamakura-ai-night_2026-07-30.webp"
+   ],
   "location": {
     "@type": "Place",
     "name": "鎌倉・旅する仕事場 西口ラウンジ",
