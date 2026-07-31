@@ -8,7 +8,7 @@ alt_lang_url: /en/events/
 permalink: /ja/events/
 ---
 
-## 次回
+## 過去
 
 ### 鎌倉・旅するAI Night
 
