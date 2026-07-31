@@ -8,7 +8,7 @@ alt_lang_url: /ja/events/
 permalink: /en/events/
 ---
 
-## Next
+## Previously
 
 ### Kamakura AI Night
 
