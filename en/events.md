@@ -8,6 +8,18 @@ alt_lang_url: /ja/events/
 permalink: /en/events/
 ---
 
+## Upcoming
+
+### AI Study Time @ Kamakura
+
+A self-directed learning session: research, think through, and try out AI on your own terms. Not a seminar or lecture.
+
+- Dates: Thursday 3 September 2026 and Thursday 17 September 2026, 17:00-19:00
+- Venue: [Kamakura Tabisuru Shigotoba, West Exit Lounge](https://tabikamakura.com/) (Onarimachi 11-2, Yanoya Bldg 2F, Kamakura / 1 min from JR Kamakura Station west exit)
+- Cost: Free
+- Host: Kamakura Tabisuru Shigotoba
+- Joining: Walk-ins welcome. [Sign up here](https://tabikamakura.com/kamakura_ai.html).
+
 ## Previously
 
 ### Kamakura AI Night
