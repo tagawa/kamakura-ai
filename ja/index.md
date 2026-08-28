@@ -6,8 +6,8 @@ lang: ja
 page_id: home
 alt_lang_url: /en/
 permalink: /ja/
-next_event_date: 2026-07-30
-next_event_title: 鎌倉・旅するAI Night
+next_event_date: 2026-09-03
+next_event_title: AIに取り組む時間@鎌倉
 ---
 
 仕事や暮らしで使えるAI活用のコツを集めています。流行のツール紹介ではなく、長く使えるものだけ。エンジニアでなくても試せます。
@@ -17,7 +17,7 @@ next_event_title: 鎌倉・旅するAI Night
 {% if page.next_event_date and event_int >= today_int %}
 <p class="next-event">次回: <a href="/ja/events/">{{ page.next_event_date | date: '%-m/%-d' }} {{ page.next_event_title }}</a></p>
 <figure class="event-banner">
-  <img src="/assets/events/kamakura-ai-night_banner.webp" width="1196" height="520" alt="鎌倉・旅するAI Night のPR画像。">
+  <img src="/assets/events/kamakura-ai-night_banner2.webp" width="1240" height="539" alt="AIに取り組む時間@鎌倉 のPR画像。">
 </figure>
 {% else %}
 <p class="next-event">鎌倉でときどき、<a href="/ja/events/">AIを使って手を動かす会</a>を開いています。</p>
