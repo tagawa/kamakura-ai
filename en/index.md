@@ -6,7 +6,7 @@ lang: en
 page_id: home
 alt_lang_url: /ja/
 permalink: /en/
-next_event_date: 2026-09-03
+next_event_date: 2026-10-01
 next_event_title: AI Study Time @ Kamakura
 ---
 Practical AI habits for work and everyday life. Not tool news; only the things that stay useful. No engineering background needed.
