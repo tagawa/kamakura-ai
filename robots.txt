@@ -1,4 +1,30 @@
+# Content Signals: how this site's content may be used.
+# https://contentsignals.org/
+# Training is opted out. Search and AI answers are welcome, since being
+# found is the whole point of a tips site.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+
+# Training and dataset crawlers, opted out per the signal above.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Bytespider
+Disallow: /
+
+# Search and user-initiated answer agents, welcome.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Amazonbot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 Sitemap: https://kamakura.ai/sitemap.xml
