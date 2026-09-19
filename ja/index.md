@@ -6,7 +6,7 @@ lang: ja
 page_id: home
 alt_lang_url: /en/
 permalink: /ja/
-next_event_date: 2026-09-03
+next_event_date: 2026-10-01
 next_event_title: AIに取り組む時間@鎌倉
 ---
 
