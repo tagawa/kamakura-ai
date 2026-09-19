@@ -8,6 +8,8 @@ layout: null
 
 Tip format: situation / what to do / result and key point. Each tip page contains Japanese first, then English under the #en anchor.
 
+Full text of every tip in one file: {{ site.url }}/llms-full.txt
+
 ## Tips
 {% assign tips = site.tips | sort: 'date' | reverse %}{% for tip in tips %}
 - [{{ tip.title_en | default: tip.title_ja }}]({{ site.url }}{{ tip.url }}): {{ tip.title_ja }} ({{ tip.tags | join: ", " }}){% endfor %}
