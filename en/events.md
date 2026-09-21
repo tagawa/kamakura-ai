@@ -15,7 +15,7 @@ permalink: /en/events/
 A self-directed learning session: research, think through, and try out AI on your own terms. Two hours of quiet work, whatever tools you use. Not a seminar or lecture.
 
 - Dates: Thursday 1, 15 and 29 October 2026, 17:00-19:00 (doors from 16:30)
-- Venue: [Kamakura Tabisuru Shigotoba, West Exit Lounge](https://tabikamakura.com/) (Onarimachi 11-2, Yanoya Bldg 2F, Kamakura / 1 min from JR Kamakura Station west exit)
+- Venue: [Kamakura Tabisuru Shigotoba, West Exit Lounge](https://tabikamakura.com/) (Onarimachi 11-2, Yanoya Bldg 2F, Kamakura / 1 min from JR Kamakura Station west exit / [map](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi))
 - Cost: Free
 - Bring: Laptop, power supply, whatever materials you need. Food and drink welcome.
 - Host: Kamakura Tabisuru Shigotoba
@@ -28,7 +28,7 @@ A self-directed learning session: research, think through, and try out AI on you
 A self-directed learning session: research, think through, and try out AI on your own terms. Not a seminar or lecture.
 
 - Dates: Thursday 3 September 2026 and Thursday 17 September 2026, 17:00-19:00
-- Venue: [Kamakura Tabisuru Shigotoba, West Exit Lounge](https://tabikamakura.com/) (Onarimachi 11-2, Yanoya Bldg 2F, Kamakura / 1 min from JR Kamakura Station west exit)
+- Venue: [Kamakura Tabisuru Shigotoba, West Exit Lounge](https://tabikamakura.com/) (Onarimachi 11-2, Yanoya Bldg 2F, Kamakura / 1 min from JR Kamakura Station west exit / [map](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi))
 - Cost: Free
 - Bring: Laptop, power supply, whatever materials you need. Food and drink welcome.
 - Host: Kamakura Tabisuru Shigotoba
@@ -39,7 +39,7 @@ A self-directed learning session: research, think through, and try out AI on you
 A shared work session: bring the task you keep putting off and use AI to get it done. No talks, no presentations. Work quietly on your own thing, talk a problem or an idea through with someone else, or just bring your ordinary work.
 
 - Date: Thursday 30 July 2026, 18:00-20:00
-- Venue: [Kamakura Tabisuru Shigotoba, West Exit Lounge](https://tabikamakura.com/) (Onarimachi 11-2, Yanoya Bldg 2F, Kamakura / 1 min from JR Kamakura Station west exit)
+- Venue: [Kamakura Tabisuru Shigotoba, West Exit Lounge](https://tabikamakura.com/) (Onarimachi 11-2, Yanoya Bldg 2F, Kamakura / 1 min from JR Kamakura Station west exit / [map](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi))
 - Cost: Free
 - Bring: Laptop, materials, whatever you need
 - Host: Kamakura Tabisuru Shigotoba
