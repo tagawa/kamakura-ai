@@ -16,5 +16,5 @@ URL: {{ site.url }}{{ tip.url }}
 Tags: {{ tip.tags | join: ", " }}
 Date: {{ tip.date | date: "%Y-%m-%d" }}
 
-{{ tip.content | replace: '<!--en-->', '### English' | strip_html | strip }}
+{{ tip.content | replace: '<!--en-->', '### English' | replace: '</dt>', ':' | strip_html | strip }}
 {% endfor %}
