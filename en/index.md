@@ -23,8 +23,9 @@ Practical AI habits for work and everyday life. Not tool news; only the things t
 <ul class="tip-list">
 {% assign tips = site.tips | where_exp: 'tip', 'tip.date <= site.time' | sort: 'date' | reverse %}
 {% for tip in tips limit: 5 %}
-  <li><a href="{{ tip.url }}#en">{{ tip.title_en | default: tip.title_ja }}</a><br>
-    {% for tag in tip.tags %}<a class="tag" href="/en/tags/#{{ tag }}">{{ tag }}</a>{% endfor %}
+  {% assign primary = tip.tags | first %}{% assign fam = site.data.tags[primary].group | default: "context" %}<li>{% include icon.html group=fam %}<a class="tip-link" href="{{ tip.url }}#en">{{ tip.title_en | default: tip.title_ja }}</a>
+    <span class="tip-lede">{{ tip.description_en }}</span>
+    {% for tag in tip.tags %}{% include tag.html tag=tag lang='en' %}{% endfor %}
   </li>
 {% endfor %}
 </ul>

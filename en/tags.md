@@ -13,10 +13,10 @@ description: Kamakura AI tips grouped by tag.
 {% assign all_tags = all_tags | uniq | sort %}
 {% assign tips_sorted = published_tips | sort: 'date' | reverse %}
 {% for tag in all_tags %}
-<h2 id="{{ tag }}">{{ tag }}</h2>
+<h2 id="{{ tag }}">{{ site.data.tags[tag].en | default: tag }}</h2>
 <ul class="tip-list">
 {% for tip in tips_sorted %}{% if tip.tags contains tag %}
-  <li><a href="{{ tip.url }}#en">{{ tip.title_en | default: tip.title_ja }}</a></li>
+  <li><a class="tip-link" href="{{ tip.url }}#en">{{ tip.title_en | default: tip.title_ja }}</a></li>
 {% endif %}{% endfor %}
 </ul>
 {% endfor %}
