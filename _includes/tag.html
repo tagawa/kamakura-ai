@@ -1,0 +1,3 @@
+{%- assign tg = site.data.tags[include.tag] -%}
+{%- assign tg_label = tg[include.lang] | default: include.tag -%}
+<a class="tag tag-{{ tg.group | default: 'context' }}" href="/{{ include.lang }}/tags/#{{ include.tag }}">{{ tg_label }}</a>
