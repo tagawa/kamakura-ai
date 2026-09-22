@@ -1,26 +1,115 @@
-getting-started: はじめの一歩
-habits: 習慣
-prompting: 頼み方
-writing: 文章
-workflow: 進め方
-work: 仕事
-daily-life: 暮らし
-planning: 計画
-learning: 学び
-education: 教育
-verification: 確認
-research: 調べもの
-privacy: プライバシー
-feedback: 批評
-quality: 品質
-safety: 安全
-judgment: 見極め
-images: 画像
-coding: プログラミング
-language: 語学
-travel: 旅行
-communication: 伝え方
-brainstorming: アイデア出し
-admin: 事務
-spreadsheet: 表計算
-marketing: 広報
+# Tag labels and the family each tag belongs to.
+# `group` drives the pill colour in style.css (.tag-ask / -method / -check / -context).
+# Colour is never the only signal: the label is always shown next to it.
+
+# ask: how to word the request
+prompting:
+  ja: 頼み方
+  en: Prompting
+  group: ask
+writing:
+  ja: 文章
+  en: Writing
+  group: ask
+communication:
+  ja: 伝え方
+  en: Communication
+  group: ask
+brainstorming:
+  ja: アイデア出し
+  en: Ideas
+  group: ask
+images:
+  ja: 画像
+  en: Images
+  group: ask
+language:
+  ja: 語学
+  en: Languages
+  group: ask
+
+# method: how to run the work
+getting-started:
+  ja: はじめの一歩
+  en: Getting started
+  group: method
+habits:
+  ja: 習慣
+  en: Habits
+  group: method
+workflow:
+  ja: 進め方
+  en: Workflow
+  group: method
+planning:
+  ja: 計画
+  en: Planning
+  group: method
+quality:
+  ja: 品質
+  en: Quality
+  group: method
+coding:
+  ja: プログラミング
+  en: Coding
+  group: method
+spreadsheet:
+  ja: 表計算
+  en: Spreadsheets
+  group: method
+
+# check: how to test what comes back
+verification:
+  ja: 確認
+  en: Checking
+  group: check
+judgment:
+  ja: 見極め
+  en: Judgement
+  group: check
+research:
+  ja: 調べもの
+  en: Research
+  group: check
+feedback:
+  ja: 批評
+  en: Critique
+  group: check
+safety:
+  ja: 安全
+  en: Safety
+  group: check
+privacy:
+  ja: プライバシー
+  en: Privacy
+  group: check
+
+# context: where the tip applies
+work:
+  ja: 仕事
+  en: Work
+  group: context
+daily-life:
+  ja: 暮らし
+  en: Everyday life
+  group: context
+learning:
+  ja: 学び
+  en: Learning
+  group: context
+education:
+  ja: 教育
+  en: Education
+  group: context
+travel:
+  ja: 旅行
+  en: Travel
+  group: context
+admin:
+  ja: 事務
+  en: Admin
+  group: context
+marketing:
+  ja: 広報
+  en: Outreach
+  group: context
