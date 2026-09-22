@@ -7,6 +7,11 @@
   --ai-deep: #274a78;
   --muted: #6b7280;
   --line: #e5e2da;
+  /* Tag families, one per group in _data/tags.yml. All >6:1 on --paper. */
+  --tag-ask: #2f5d9e;      /* 藍 */
+  --tag-method: #2f6647;   /* 松葉 */
+  --tag-check: #8f3a4c;    /* 蘇芳 */
+  --tag-context: #7d551b;  /* 丁子 */
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -17,6 +22,10 @@
     --ai-deep: #9db9de;
     --muted: #9aa1ab;
     --line: #33363d;
+    --tag-ask: #7ba3d6;
+    --tag-method: #83b99a;
+    --tag-check: #dd94a2;
+    --tag-context: #cfa464;
   }
 }
 * { box-sizing: border-box; }
@@ -29,8 +38,18 @@ body {
   line-height: 1.9;
   font-size: 1rem;
 }
+/* Latin faces first; Japanese characters fall through to the mincho faces,
+   which is the usual JA editorial pairing: mincho display over gothic body. */
+h1, h2, h3, .site-title, .tip-body dt, .event-facts dt {
+  font-family: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia,
+    "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", "Noto Serif JP", serif;
+  font-weight: 600;
+}
+/* Latin needs less leading than Japanese at the same size. */
+html[lang="en"] body, .tip-en { line-height: 1.75; }
+
 main, .site-header, .site-footer {
-  max-width: 40rem;
+  max-width: 38rem;
   margin: 0 auto;
   padding: 0 1.25rem;
 }
@@ -38,51 +57,133 @@ a { color: var(--ai); }
 a:hover { color: var(--ai-deep); }
 :focus-visible { outline: 3px solid var(--ai); outline-offset: 2px; }
 
-.site-header { padding-top: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
+.site-header { padding-top: 1.5rem; padding-bottom: 0; border-bottom: 1px solid var(--line); }
 .site-title {
   display: inline-block;
-  font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--ink);
   text-decoration: none;
   border-bottom: 4px solid var(--ai);
   padding-bottom: 0.1rem;
 }
-.site-header nav { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 1rem; }
-.site-header nav a { text-decoration: none; }
-.lang-switch { margin-left: auto; }
+/* Margins rather than flex `gap`: gap resolves to nothing on Safari before 14.1
+   and IE, which would collapse these links against each other. The nav's
+   negative left margin negates each link's, so a wrapped row still starts flush;
+   the links' bottom margin supplies the row gap and the space above the border,
+   which is why .site-header has no padding-bottom of its own. */
+.site-header nav { margin-top: 0.75rem; margin-left: -1rem; display: flex; flex-wrap: wrap; }
+.site-header nav a { text-decoration: none; margin: 0 0 1rem 1rem; }
+/* `auto` replaces this link's left margin, so the 1rem separation it still needs
+   when the row is full comes from padding instead. */
+.site-header nav .lang-switch { margin-left: auto; padding-left: 1rem; }
 
 main { padding-top: 2rem; padding-bottom: 3rem; }
-h1 { font-size: 1.5rem; line-height: 1.5; margin: 0 0 0.75rem; }
-h2 { font-size: 1.15rem; margin-top: 2.5rem; }
+h1 { font-size: 1.9rem; line-height: 1.4; margin: 0 0 0.75rem; }
+h2 { font-size: 1.3rem; line-height: 1.5; margin-top: 2.5rem; }
+h3 { font-size: 1.1rem; margin-top: 2rem; }
 
 /* Tip list */
 .tip-list { list-style: none; padding: 0; margin: 1.5rem 0; }
-.tip-list li { padding: 0.9rem 0; border-bottom: 1px solid var(--line); }
-.tip-list a { text-decoration: none; font-weight: 600; }
-.tip-list a:hover { text-decoration: underline; }
+.tip-list li { position: relative; padding: 1rem 0 1rem 2.1rem; border-bottom: 1px solid var(--line); }
+/* Optically centred on the title's first line, which is a line-height taller in Japanese. */
+.tip-icon {
+  position: absolute;
+  left: 0;
+  top: 1.32rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+html[lang="en"] .tip-icon { top: 1.25rem; }
+/* Scoped to the title link: an unscoped `.tip-list a` also matched the tag
+   pills in the same li, which is how they ended up bolder here than on a tip page. */
+.tip-list .tip-link { text-decoration: none; font-weight: 600; }
+.tip-list .tip-link:hover { text-decoration: underline; }
+.tip-lede {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin: 0.15rem 0 0.4rem;
+}
+/* Filled pills. --paper as the text colour is correct in both schemes: it is
+   near-white against light mode's deep fills, near-black against dark mode's
+   pale ones. Every combination measures at least 6.2:1. The weight is stated
+   here and nowhere else, so pills match wherever they appear. */
 .tag {
   display: inline-block;
   font-size: 0.75rem;
-  color: var(--muted);
-  border: 1px solid var(--line);
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--paper);
+  background: var(--muted);
+  border: 1px solid var(--muted);
   border-radius: 999px;
   padding: 0 0.6em;
   margin-right: 0.4em;
   text-decoration: none;
 }
-a.tag:hover, a.tag:focus-visible { border-color: var(--ai); color: var(--ai); }
+.tag-ask { background: var(--tag-ask); border-color: var(--tag-ask); }
+.tag-method { background: var(--tag-method); border-color: var(--tag-method); }
+.tag-check { background: var(--tag-check); border-color: var(--tag-check); }
+.tag-context { background: var(--tag-context); border-color: var(--tag-context); }
+/* Darken the fill in place rather than change size, so nothing shifts on hover.
+   The colour is restated because a:hover would otherwise recolour the label. */
+a.tag:hover, a.tag:focus-visible {
+  color: var(--paper);
+  box-shadow: inset 0 0 0 2em rgba(0, 0, 0, 0.2);
+}
+.icon-ask { color: var(--tag-ask); }
+.icon-method { color: var(--tag-method); }
+.icon-check { color: var(--tag-check); }
+.icon-context { color: var(--tag-context); }
 h2[id] { scroll-margin-top: 1rem; }
 
-/* Tip page */
+/* Tip page: situation / what to do / result, as labelled steps.
+   Only the last pair (the takeaway) carries the accent. */
 .tip-header .tip-title-en { color: var(--muted); margin-top: -0.25rem; }
-.tip-body p { background: var(--card); border-left: 4px solid var(--ai); padding: 0.75rem 1rem; border-radius: 0 6px 6px 0; }
-.tip-body p strong:first-child { color: var(--ai-deep); }
+.tip-body dl { margin: 1.5rem 0 0; }
+.tip-body dt {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ai-deep);
+  margin-top: 1.75rem;
+}
+.tip-body dd { margin: 0.2rem 0 0; }
+.tip-body dt:last-of-type {
+  background: var(--card);
+  border-left: 3px solid var(--ai);
+  border-radius: 0 6px 0 0;
+  padding: 0.8rem 1rem 0;
+}
+.tip-body dd:last-of-type {
+  background: var(--card);
+  border-left: 3px solid var(--ai);
+  border-radius: 0 0 6px 0;
+  padding: 0.2rem 1rem 0.9rem;
+  margin-top: 0;
+}
 .tip-en h2 { border-bottom: 1px solid var(--line); padding-bottom: 0.25rem; }
 .tip-footer { margin-top: 2rem; color: var(--muted); font-size: 0.85rem; }
 .tip-source { overflow-wrap: anywhere; }
 
 img { max-width: 100%; height: auto; }
+
+/* Event facts: label column beside the value, stacking on narrow screens.
+   Floats rather than grid, so old browsers get the same layout. */
+.event-facts { margin: 1.25rem 0 2rem; }
+.event-facts::after { content: ""; display: block; clear: both; }
+.event-facts dt {
+  float: left;
+  clear: left;
+  width: 5.5em;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.event-facts dd { margin: 0 0 0.6rem 6.5em; }
+@media (max-width: 30rem) {
+  .event-facts dt { float: none; width: auto; margin-top: 0.9rem; }
+  .event-facts dd { margin-left: 0; }
+}
 
 /* Event flyer */
 .event-flyer { margin: 2rem 0; }
