@@ -14,13 +14,25 @@ permalink: /ja/events/
 
 自分のための学びの時間です。AIについて調べ、考え、試してみる。旅する仕事場でもくもくと、AIについて自由に取り組む2時間です。使用するAIは人それぞれ。セミナーやレクチャーではありません。
 
-- 日時: 2026年10月1日(木)・10月15日(木)・10月29日(木) 全日 17:00-19:00（16:30より入場可能）
-- 会場: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
-  - 鎌倉市御成町11-2 ヤノヤビル2F / JR鎌倉駅西口 徒歩1分 / [地図](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi)
-- 費用: 無料
-- 持ち物: PC、電源、必要な機材・資料など。飲食持込自由。
-- 主催: 鎌倉・旅する仕事場
-- 参加: AIを使っている方、AIに興味のある方、どなたでもご参加いただけます。当日参加も可能です（人数が多い場合は締め切ることがあります）。[お申し込みはこちら](https://tabikamakura.com/kamakura_ai.html)。
+{:.event-facts}
+日時
+: 2026年10月1日(木)・10月15日(木)・10月29日(木) 全日 17:00-19:00（16:30より入場可能）
+
+会場
+: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
+: 鎌倉市御成町11-2 ヤノヤビル2F / JR鎌倉駅西口 徒歩1分 / [地図](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi)
+
+費用
+: 無料
+
+持ち物
+: PC、電源、必要な機材・資料など。飲食持込自由。
+
+主催
+: 鎌倉・旅する仕事場
+
+参加
+: AIを使っている方、AIに興味のある方、どなたでもご参加いただけます。当日参加も可能です（人数が多い場合は締め切ることがあります）。[お申し込みはこちら](https://tabikamakura.com/kamakura_ai.html)。
 
 <script type="application/ld+json">
 {
@@ -151,13 +163,25 @@ permalink: /ja/events/
 
 自分のための学びの時間です。AIについて調べ、考え、試してみる。セミナーやレクチャーではありません。
 
-- 日時: 2026年9月3日(木)・9月17日(木) 17:00-19:00
-- 会場: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
-  - 鎌倉市御成町11-2 ヤノヤビル2F / JR鎌倉駅西口 徒歩1分 / [地図](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi)
-- 費用: 無料
-- 持ち物: PC、電源、必要な機材・資料など。飲食持込自由。
-- 主催: 鎌倉・旅する仕事場
-- 参加: 当日参加も可能でした。
+{:.event-facts}
+日時
+: 2026年9月3日(木)・9月17日(木) 17:00-19:00
+
+会場
+: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
+: 鎌倉市御成町11-2 ヤノヤビル2F / JR鎌倉駅西口 徒歩1分 / [地図](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi)
+
+費用
+: 無料
+
+持ち物
+: PC、電源、必要な機材・資料など。飲食持込自由。
+
+主催
+: 鎌倉・旅する仕事場
+
+参加
+: 当日参加も可能でした。
 
 <figure class="event-flyer">
   <a href="/assets/events/kamakura-ai-night_2026-09-03.webp">
@@ -256,13 +280,25 @@ AIを使って、後回しになっていた仕事や、試してみたかった
 
 作業内容は人それぞれ。画像・動画制作、資料作成、AIの学習、プログラミング、開発など。[ChatGPT](https://chatgpt.com)、[Gemini](https://gemini.google.com)、[Claude](https://claude.ai)、[Midjourney](https://www.midjourney.com) など、使うツールも自由です。
 
-- 日時: 2026年7月30日(木) 18:00-20:00
-- 会場: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
-  - 鎌倉市御成町11-2 ヤノヤビル2F / JR鎌倉駅西口 徒歩1分 / [地図](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi)
-- 費用: 無料
-- 持ち物: PC、電源、必要な機材・資料
-- 主催: 鎌倉・旅する仕事場
-- 参加: 旅する仕事場の人も、初めての人も歓迎です。AIを使っている方、興味のある方ならどなたでも。運営スタッフまでお声掛けください。当日参加も可能です（人数が多い場合は締め切ることがあります）。
+{:.event-facts}
+日時
+: 2026年7月30日(木) 18:00-20:00
+
+会場
+: [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
+: 鎌倉市御成町11-2 ヤノヤビル2F / JR鎌倉駅西口 徒歩1分 / [地図](https://maps.apple.com/?address=11-2,%20Onarimachi,%20Kamakura,%20Kanagawa,%20Japan%20248-0012&ll=35.318887,139.549701&q=11-2,%20Onarimachi)
+
+費用
+: 無料
+
+持ち物
+: PC、電源、必要な機材・資料
+
+主催
+: 鎌倉・旅する仕事場
+
+参加
+: 旅する仕事場の人も、初めての人も歓迎です。AIを使っている方、興味のある方ならどなたでも。運営スタッフまでお声掛けください。当日参加も可能です（人数が多い場合は締め切ることがあります）。
 
 <figure class="event-flyer">
   <a href="/assets/events/kamakura-ai-night_2026-07-30.webp">

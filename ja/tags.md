@@ -13,10 +13,10 @@ description: 鎌倉AIのヒントをタグ別に一覧。
 {% assign all_tags = all_tags | uniq | sort %}
 {% assign tips_sorted = published_tips | sort: 'date' | reverse %}
 {% for tag in all_tags %}
-<h2 id="{{ tag }}">{{ site.data.tags[tag] | default: tag }}</h2>
+<h2 id="{{ tag }}">{{ site.data.tags[tag].ja | default: tag }}</h2>
 <ul class="tip-list">
 {% for tip in tips_sorted %}{% if tip.tags contains tag %}
-  <li><a href="{{ tip.url }}">{{ tip.title_ja }}</a></li>
+  <li><a class="tip-link" href="{{ tip.url }}">{{ tip.title_ja }}</a></li>
 {% endif %}{% endfor %}
 </ul>
 {% endfor %}
