@@ -6,7 +6,7 @@ layout: default
 <header class="tip-header">
   <h1>{{ page.title_ja }}</h1>
   {% if page.title_en %}<p class="tip-title-en" lang="en">{{ page.title_en }}</p>{% endif %}
-  <p class="tip-tags">{% for tag in page.tags %}<a class="tag" href="/ja/tags/#{{ tag }}">{{ site.data.tags[tag] | default: tag }}</a>{% endfor %}</p>
+  <p class="tip-tags">{% for tag in page.tags %}{% include tag.html tag=tag lang='ja' %}{% endfor %}</p>
 </header>
 <section class="tip-body" lang="ja" id="ja">
 {{ parts[0] }}
@@ -31,7 +31,7 @@ layout: default
   "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
   "inLanguage": ["ja", "en"],
   {% assign kw = "" | split: "" %}
-  {% for tag in page.tags %}{% assign kw = kw | push: site.data.tags[tag] | default: tag %}{% endfor %}
+  {% for tag in page.tags %}{% assign kw = kw | push: site.data.tags[tag].ja | default: tag %}{% endfor %}
   "keywords": {{ kw | join: ", " | jsonify }},
   "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
   "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }}, "url": {{ site.url | jsonify }} }
