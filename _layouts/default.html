@@ -12,7 +12,11 @@
 {% if l == 'en' and page.description_en %}{% assign page_desc = page.description_en %}{% elsif page.description_ja %}{% assign page_desc = page.description_ja %}{% endif %}
 <meta name="description" content="{{ page_desc | default: site.description }}">
 
+{% if page.noindex %}
+<meta name="robots" content="noindex">
+{% else %}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{% endif %}
 <link rel="stylesheet" href="/assets/style.css">
 {% if page.page_id == 'home' %}
 
