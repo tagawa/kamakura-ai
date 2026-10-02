@@ -1,0 +1,7 @@
+{% comment %}Sets next_event_date for the including page: the first date in _data/next_event.yml not yet passed at build time, or nil.{% endcomment %}
+{% assign today_int = site.time | date: '%Y%m%d' | plus: 0 %}
+{% assign next_event_date = nil %}
+{% for event_date in site.data.next_event.dates %}
+  {% assign event_int = event_date | date: '%Y%m%d' | plus: 0 %}
+  {% if event_int >= today_int %}{% assign next_event_date = event_date %}{% break %}{% endif %}
+{% endfor %}
