@@ -1,0 +1,9 @@
+# The home pages show the first of these dates that hasn't passed at build
+# time, so the daily 01:00 JST build moves on to the next one by itself. Once
+# all have passed they show a general line instead. Keep dates in order.
+title_ja: AIに取り組む時間@鎌倉
+title_en: AI Study Time @ Kamakura
+dates:
+  - 2026-10-01
+  - 2026-10-15
+  - 2026-10-29
