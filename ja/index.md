@@ -6,16 +6,13 @@ lang: ja
 page_id: home
 alt_lang_url: /en/
 permalink: /ja/
-next_event_date: 2026-10-01
-next_event_title: AIに取り組む時間@鎌倉
 ---
 
 仕事や暮らしで使えるAI活用のコツを集めています。流行のツール紹介ではなく、長く使えるものだけ。エンジニアでなくても試せます。
 
-{% assign today_int = site.time | date: '%Y%m%d' | plus: 0 %}
-{% assign event_int = page.next_event_date | date: '%Y%m%d' | plus: 0 %}
-{% if page.next_event_date and event_int >= today_int %}
-<p class="next-event">次回: <a href="/ja/events/">{{ page.next_event_date | date: '%-m/%-d' }} {{ page.next_event_title }}</a></p>
+{% include next-event-date.html %}
+{% if next_event_date %}
+<p class="next-event">次回: <a href="/ja/events/">{{ next_event_date | date: '%-m/%-d' }} {{ site.data.next_event.title_ja }}</a></p>
 <figure class="event-banner">
   <img src="/assets/events/kamakura-ai-night_banner2.webp" width="1240" height="539" alt="AIに取り組む時間@鎌倉 のPR画像。">
 </figure>
