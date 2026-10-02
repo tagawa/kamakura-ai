@@ -6,15 +6,12 @@ lang: en
 page_id: home
 alt_lang_url: /ja/
 permalink: /en/
-next_event_date: 2026-10-01
-next_event_title: AI Study Time @ Kamakura
 ---
 Practical AI habits for work and everyday life. Not tool news; only the things that stay useful. No engineering background needed.
 
-{% assign today_int = site.time | date: '%Y%m%d' | plus: 0 %}
-{% assign event_int = page.next_event_date | date: '%Y%m%d' | plus: 0 %}
-{% if page.next_event_date and event_int >= today_int %}
-<p class="next-event">Next event: <a href="/en/events/">{{ page.next_event_date | date: '%-m/%-d' }} {{ page.next_event_title }}</a></p>
+{% include next-event-date.html %}
+{% if next_event_date %}
+<p class="next-event">Next event: <a href="/en/events/">{{ next_event_date | date: '%-m/%-d' }} {{ site.data.next_event.title_en }}</a></p>
 {% else %}
 <p class="next-event">We hold occasional <a href="/en/events/">hands-on AI work sessions</a> in Kamakura (mainly in Japanese).</p>
 {% endif %}
