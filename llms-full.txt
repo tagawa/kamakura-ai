@@ -9,7 +9,7 @@ layout: null
 Complete text of every tip, Japanese first, then English under the "English" heading.
 Tip format: situation / what to do / result and key point.
 Index and page links: {{ site.url }}/llms.txt
-{% assign tips = site.tips | sort: 'date' | reverse %}{% for tip in tips %}
+{% assign tips = site.tips | where_exp: 'tip', 'tip.date <= site.time' | sort: 'date' | reverse %}{% for tip in tips %}
 ## {{ tip.title_en | default: tip.title_ja }}
 {{ tip.title_ja }}
 URL: {{ site.url }}{{ tip.url }}

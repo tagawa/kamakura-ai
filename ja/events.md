@@ -10,13 +10,13 @@ permalink: /ja/events/
 
 ## 今後の予定
 
-### AIに取り組む時間@鎌倉
+### AIに取り組む時間@鎌倉（2026年10月〜11月）
 
 自分のための学びの時間です。AIについて調べ、考え、試してみる。旅する仕事場でもくもくと、AIについて自由に取り組む2時間です。使用するAIは人それぞれ。セミナーやレクチャーではありません。
 
 {:.event-facts}
 日時
-: 2026年10月1日(木)・10月15日(木)・10月29日(木) 全日 17:00-19:00（16:30より入場可能）
+: 2026年10月1日(木)・10月15日(木)・10月28日(水)・11月12日(木)・11月26日(木) 全日 17:00-19:00（16:30より入場可能）
 
 会場
 : [鎌倉・旅する仕事場 西口ラウンジ](https://tabikamakura.com/)
@@ -122,8 +122,90 @@ permalink: /ja/events/
   "@type": "Event",
   "name": "AIに取り組む時間@鎌倉",
   "description": "自分のための学びの時間。AIについて調べ、考え、試してみる。",
-  "startDate": "2026-10-29T17:00:00+09:00",
-  "endDate": "2026-10-29T19:00:00+09:00",
+  "startDate": "2026-10-28T17:00:00+09:00",
+  "endDate": "2026-10-28T19:00:00+09:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "inLanguage": "ja",
+  "image": [
+    "https://kamakura.ai/assets/events/kamakura-ai-night_banner3.webp"
+  ],
+  "location": {
+    "@type": "Place",
+    "name": "鎌倉・旅する仕事場 西口ラウンジ",
+    "address": {
+      "@type": "PostalAddress",
+      "postalCode": "248-0012",
+      "addressRegion": "神奈川県",
+      "addressLocality": "鎌倉市",
+      "streetAddress": "御成町11-2 ヤノヤビル2F",
+      "addressCountry": "JP"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "鎌倉・旅する仕事場",
+    "url": "https://tabikamakura.com/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY",
+    "availability": "https://schema.org/InStock",
+    "url": "https://tabikamakura.com/kamakura_ai.html"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "AIに取り組む時間@鎌倉",
+  "description": "自分のための学びの時間。AIについて調べ、考え、試してみる。",
+  "startDate": "2026-11-12T17:00:00+09:00",
+  "endDate": "2026-11-12T19:00:00+09:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "inLanguage": "ja",
+  "image": [
+    "https://kamakura.ai/assets/events/kamakura-ai-night_banner3.webp"
+  ],
+  "location": {
+    "@type": "Place",
+    "name": "鎌倉・旅する仕事場 西口ラウンジ",
+    "address": {
+      "@type": "PostalAddress",
+      "postalCode": "248-0012",
+      "addressRegion": "神奈川県",
+      "addressLocality": "鎌倉市",
+      "streetAddress": "御成町11-2 ヤノヤビル2F",
+      "addressCountry": "JP"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "鎌倉・旅する仕事場",
+    "url": "https://tabikamakura.com/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY",
+    "availability": "https://schema.org/InStock",
+    "url": "https://tabikamakura.com/kamakura_ai.html"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "AIに取り組む時間@鎌倉",
+  "description": "自分のための学びの時間。AIについて調べ、考え、試してみる。",
+  "startDate": "2026-11-26T17:00:00+09:00",
+  "endDate": "2026-11-26T19:00:00+09:00",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "inLanguage": "ja",

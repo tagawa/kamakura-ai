@@ -10,13 +10,13 @@ permalink: /en/events/
 
 ## Upcoming
 
-### AI Study Time @ Kamakura
+### AI Study Time @ Kamakura (October to November 2026)
 
 A self-directed learning session: research, think through, and try out AI on your own terms. Two hours of quiet work, whatever tools you use. Not a seminar or lecture.
 
 {:.event-facts}
 Dates
-: Thursday 1, 15 and 29 October 2026, 17:00-19:00 (doors from 16:30)
+: Thursday 1 and 15 October, Wednesday 28 October, Thursday 12 and 26 November 2026, 17:00-19:00 (doors from 16:30)
 
 Venue
 : [Kamakura Tabisuru Shigotoba, West Exit Lounge](https://tabikamakura.com/) (Onarimachi 11-2, Yanoya Bldg 2F, Kamakura / 1 min from JR Kamakura Station west exit)

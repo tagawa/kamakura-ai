@@ -31,7 +31,7 @@ layout: default
   "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
   "inLanguage": ["ja", "en"],
   {% assign kw = "" | split: "" %}
-  {% for tag in page.tags %}{% assign kw = kw | push: site.data.tags[tag].ja | default: tag %}{% endfor %}
+  {% for tag in page.tags %}{% assign kw_label = site.data.tags[tag].ja | default: tag %}{% assign kw = kw | push: kw_label %}{% endfor %}
   "keywords": {{ kw | join: ", " | jsonify }},
   "author": { "@type": "Organization", "name": {{ site.title | jsonify }} },
   "publisher": { "@type": "Organization", "name": {{ site.title | jsonify }}, "url": {{ site.url | jsonify }} }
