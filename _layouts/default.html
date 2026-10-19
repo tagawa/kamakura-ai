@@ -12,6 +12,15 @@
 {% if l == 'en' and page.description_en %}{% assign page_desc = page.description_en %}{% elsif page.description_ja %}{% assign page_desc = page.description_ja %}{% endif %}
 <meta name="description" content="{{ page_desc | default: site.description }}">
 
+<!-- Link previews on LINE, X etc.; no og:image until the site has an image of its own -->
+<meta property="og:site_name" content="{% if l == 'en' %}{{ site.title_en }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:title" content="{{ page_title | default: site.title | escape }}">
+<meta property="og:description" content="{{ page_desc | default: site.description | escape }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="{% if page.collection == 'tips' %}article{% else %}website{% endif %}">
+<meta property="og:locale" content="{% if l == 'en' %}en_US{% else %}ja_JP{% endif %}">
+<meta name="twitter:card" content="summary">
+
 {% if page.noindex %}
 <meta name="robots" content="noindex">
 {% else %}
