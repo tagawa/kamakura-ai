@@ -14,7 +14,7 @@ permalink: /ja/
 {% if next_event_date %}
 <p class="next-event">次回: <a href="/ja/events/">{{ next_event_date | date: '%-m/%-d' }} {{ site.data.next_event.title_ja }}</a></p>
 <figure class="event-banner">
-  <img src="/assets/events/kamakura-ai-night_banner2.webp" width="1240" height="539" alt="AIに取り組む時間@鎌倉 のPR画像。">
+  <img src="/assets/events/kamakura-ai-night_banner3.webp" width="1240" height="534" alt="AIに取り組む時間@鎌倉 のPR画像。">
 </figure>
 {% else %}
 <p class="next-event">鎌倉でときどき、<a href="/ja/events/">AIを使って手を動かす会</a>を開いています。</p>

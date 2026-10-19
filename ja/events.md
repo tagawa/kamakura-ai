@@ -46,7 +46,7 @@ permalink: /ja/events/
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "inLanguage": "ja",
   "image": [
-    "https://kamakura.ai/assets/events/kamakura-ai-night_banner2.webp"
+    "https://kamakura.ai/assets/events/kamakura-ai-night_banner3.webp"
   ],
   "location": {
     "@type": "Place",
@@ -87,7 +87,7 @@ permalink: /ja/events/
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "inLanguage": "ja",
   "image": [
-    "https://kamakura.ai/assets/events/kamakura-ai-night_banner2.webp"
+    "https://kamakura.ai/assets/events/kamakura-ai-night_banner3.webp"
   ],
   "location": {
     "@type": "Place",
@@ -128,7 +128,7 @@ permalink: /ja/events/
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "inLanguage": "ja",
   "image": [
-    "https://kamakura.ai/assets/events/kamakura-ai-night_banner2.webp"
+    "https://kamakura.ai/assets/events/kamakura-ai-night_banner3.webp"
   ],
   "location": {
     "@type": "Place",
